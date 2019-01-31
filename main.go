@@ -6,7 +6,7 @@ import (
 
 var (
 	name    = "a"
-	version = "initial"
+	version = "v0.1.0"
 )
 
 func main() {
