@@ -2,13 +2,10 @@ package main
 
 import (
 	"fmt"
-)
 
-var (
-	name    = "a"
-	version = "v1.1.0"
+	"github.com/mod-a/p"
 )
 
 func main() {
-	fmt.Println(name, version)
+	fmt.Println(p.Version())
 }
