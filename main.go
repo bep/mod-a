@@ -9,3 +9,7 @@ import (
 func main() {
 	fmt.Println(p.Version())
 }
+
+func ModA() string {
+	return "ModA"
+}
