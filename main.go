@@ -3,11 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/mod-a/p"
+	ma "github.com/bep/mod-a/p"
+	mc "github.com/bep/mod-c/p"
 )
 
 func main() {
-	fmt.Println(p.Version())
+	fmt.Println("mod-a:", ma.Version())
+	fmt.Println("mod-c:", mc.Version())
 }
 
 func ModA() string {
